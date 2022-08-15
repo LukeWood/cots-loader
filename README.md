@@ -50,15 +50,20 @@ model.compile(
 )
 ```
 
+## Setup
+
+TODO(lukewood): write how to download the file and create a data directory.
+
 ## API
 
-The cots-loader API works by loading the dataset from a directory specified in 
-`data_dir`.  
+The cots-loader API supports the following arguments:
 
-```
-```
+- *bounding_box_format*: any KerasCV supported bounding box format, specified in the [Keras documentation](https://keras.io/api/keras_cv/bounding_box/)
+- *data_dir*: the directory holding the data.  If you do not have a data directory, please follow the [Setup](#setup) instructions.
+- *batch_size*: batch size to use
 
 ## Roadmap
 
 - [ ] Kaggle API Integration
+- [ ] Guided setup (i.e. if the data directory is missing, give the user commands to run to set it up in Error messages)
 - [ ] Guided Kaggle login flow
