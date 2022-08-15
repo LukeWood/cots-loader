@@ -1,4 +1,4 @@
-# cots-loader
+# COTS Loader
 
 [The Easiest Way to Load the Tensorflow Great Barrier Reef Crown of Thorns Starfish Dataset!](https://www.kaggle.com/c/tensorflow-great-barrier-reef)
 
