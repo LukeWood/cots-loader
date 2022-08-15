@@ -67,3 +67,5 @@ The cots-loader API supports the following arguments:
 - [ ] Kaggle API Integration
 - [ ] Guided setup (i.e. if the data directory is missing, give the user commands to run to set it up in Error messages)
 - [ ] Guided Kaggle login flow
+- [ ] End to end Jupyter notebook using the loader in `examples/`
+- [ ] Publish package on PyPi
